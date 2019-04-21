@@ -1,0 +1,15 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:boolean" name="enabled"/>
+                <xs:element type="xs:dateTime" name="created"/>
+                <xs:element type="xs:string" name="product"/>
+                <xs:element type="xs:string" name="parent"/>
+                <xs:element type="xs:dateTime" name="deletion-deadline"/>
+                <xs:element type="xs:boolean" name="subscribed"/>
+                <xs:element type="xs:string" name="external_id"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
